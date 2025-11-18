@@ -1,1 +1,2 @@
-const header = document.querySelector(.header)
+const header = document.querySelector('.heading')
+header.textContent = 'Not'

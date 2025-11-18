@@ -1,7 +1,10 @@
-let name = prompt("put name ig");
-const space = document.createElement("p");
-let set = `Ur name is ${name}`;
-space.textContent = set;
-space.style.fontSize = "40px";
-space.style.fontFamily = "ui-rounded";
-document.body.append(space)
+const head = querySelector('#top')
+function wow() {
+  const e = document.createElement('p')
+  e.style.fontSize = '40px'
+  e.style.color = '#FFFFFF'
+  e.style.fontFamily = 'monospace'
+  e.textContent = "Also known as The KE, UnknownKE(123), and Kareemsythah"
+  head.append(e)
+}
+setTimeout(() => wow(), 1000)

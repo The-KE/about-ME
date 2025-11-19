@@ -1,4 +1,4 @@
-const head = querySelector('#top')
+const head = document.querySelector('#top')
 function wow() {
   const e = document.createElement('p')
   e.style.fontSize = '40px'

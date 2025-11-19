@@ -7,4 +7,4 @@ function wow() {
   e.textContent = "Also known as The KE, UnknownKE(123), and Kareemsythah"
   head.append(e)
 }
-setTimeout(() => wow(), 3000)
+setTimeout(() => wow(), 2500)
